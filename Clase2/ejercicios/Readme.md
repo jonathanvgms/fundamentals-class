@@ -2,6 +2,7 @@
 
 - Resolver los tres ejercicios propuestos en proyectos de consola en una misma solución
 - Aplicar buenas practicas programación y sugerencias (de código fuente) vistas en clase 
+- Utilizar Visual Studio 2022 y Net 6 para la resolución de los ejercicios
 
 ## Formato de entrega
 
