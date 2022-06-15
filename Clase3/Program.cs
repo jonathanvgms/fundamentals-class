@@ -1,0 +1,12 @@
+﻿var paciente = new Animal("Felino");
+paciente.FechaNacimiento = Convert.ToDateTime("2021-01-01");
+paciente.Nombre = "Luna";
+paciente.IntentosEscape = 2;
+paciente.Castrado = true;
+paciente.Duenio = new Persona("Jose", 23, "jose@mail.com");
+var veterinario = new Veterinario("Martin", 41, Convert.ToDateTime("1990-10-02"));
+var primerVisita = new Visita(DateTime.Today, paciente, veterinario);
+var especialista = new Especialista(veterinario);
+especialista.AgregarUna(new Especie("Felino"));
+especialista.AgregarUna(new Especie("Canino"));
+var segundaVisita = new Visita(DateTime.Today, paciente, especialista);
