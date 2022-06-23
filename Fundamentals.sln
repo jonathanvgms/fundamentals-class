@@ -9,7 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase2", "Clase2\Clase2.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase3", "Clase3\Clase3.csproj", "{6C53BA54-F666-49F2-B311-33E5E256E5F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase4", "Clase4\Clase4.csproj", "{9F845BFB-447C-4D8C-9675-9AF4208EF424}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase4", "Clase4\Clase4.csproj", "{9F845BFB-447C-4D8C-9675-9AF4208EF424}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clase5", "Clase5", "{0DFB1D01-91DD-4A33-9BDC-E0D9701F3C70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaVeterinaria.Presentation", "ClinicaVeterinaria.Presentation\ClinicaVeterinaria.Presentation.csproj", "{6EF72174-3D59-415E-B79E-DBCE62394F42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaVeterinaria.Core", "ClinicaVeterinaria.Core\ClinicaVeterinaria.Core.csproj", "{7B05D679-4E40-4EA3-87B5-CB8A51C14398}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +39,21 @@ Global
 		{9F845BFB-447C-4D8C-9675-9AF4208EF424}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F845BFB-447C-4D8C-9675-9AF4208EF424}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F845BFB-447C-4D8C-9675-9AF4208EF424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF72174-3D59-415E-B79E-DBCE62394F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF72174-3D59-415E-B79E-DBCE62394F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF72174-3D59-415E-B79E-DBCE62394F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF72174-3D59-415E-B79E-DBCE62394F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B05D679-4E40-4EA3-87B5-CB8A51C14398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B05D679-4E40-4EA3-87B5-CB8A51C14398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B05D679-4E40-4EA3-87B5-CB8A51C14398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B05D679-4E40-4EA3-87B5-CB8A51C14398}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6EF72174-3D59-415E-B79E-DBCE62394F42} = {0DFB1D01-91DD-4A33-9BDC-E0D9701F3C70}
+		{7B05D679-4E40-4EA3-87B5-CB8A51C14398} = {0DFB1D01-91DD-4A33-9BDC-E0D9701F3C70}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E445482B-03A5-4A6D-85F4-3DB3EB138341}
